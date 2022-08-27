@@ -31,7 +31,8 @@ Actualmente el proyecto se encuentra en produccion para poder probar su funciona
 * Me invitas una cerveza 🍺 o un café ☕ https://paypal.me/victordegallegos?country.x=MX&locale.x=es_XC
 * Gracias por leer 🤓.
 
-
+## App Design
+![Acuario](https://user-images.githubusercontent.com/41756950/187016118-f95ee452-5d87-4b4a-a9b3-3b4e0d18e856.png)
 
 
 ---
