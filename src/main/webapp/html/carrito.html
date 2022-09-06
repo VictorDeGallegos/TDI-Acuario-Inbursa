@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Carrito</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style5.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 style="text-align: right; float: left"><i class="fa-solid fa-phone"></i> +52 55 5395 4586</h2>
+      <h3 style="text-align: right; float: left"><i class="fa-solid fa-envelope"></i> contacto@acuarioinbursa.com.mx</h3>
+      <h4 style="text-align: right; float: left"><i class="fa-solid fa-clock"></i> Lun -Dom: 10:00 - 18:00</h4>
+    </header>
+    <nav class="nav">
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <a title="Los Tejos" href="/index.html">
+              <img src="https://elclimadelocio.files.wordpress.com/2015/11/acuario-inbursa-logo-final-ok.png?w=1200" alt="Los Tejos"
+            /></a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        <div class="nav-links">
+          <a href="/html/pinguinos.html">Encuentro con Pinguinos</a>
+          <a href="/html/exhibiciones.html">Exhibiciones</a>
+          <a href="/html/ubicacion.html">Ubicacion</a>
+
+          <a href="/html/carrito.html" class="button selected">Comprar boletos <i class="fa-solid fa-ticket"></i></a>
+        </div>
+      </div>
+    </nav>
+    <div class="back">
+      <div class="container"></div>
+      <div class="row">
+        <!-- Elementos generados a partir del JSON -->
+        <main id="items" class="col-sm-8 row items-center"></main>
+        <!-- Carrito -->
+        <aside class="col-sm-4">
+          <h2><i class="fa-solid fa-cart-shopping"></i> Carrito de compras</h2>
+          <!-- Elementos del carrito -->
+          <ul id="carrito" class="list-group"></ul>
+
+          <hr />
+          <!-- Precio total -->
+          <p class="text-right total">Total: <span id="total"></span></p>
+
+          <button id="boton-vaciar" class="btn btn-danger btn-vaciar">Vaciar <i class="fa-solid fa-trash"></i></button>
+          <!-- <a href="/index.html">
+            <button id="boton-home" class="btn btn-success btn-home">Inicio <i class="fa-solid fa-house"></i></button
+          ></a> -->
+        </aside>
+      </div>
+    </div>
+  </body>
+  <script src="../js/script2.js"></script>
+  <script></script>
+</html>

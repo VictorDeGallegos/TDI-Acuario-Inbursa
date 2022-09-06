@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Calculadora</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      .calcu-param {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bienvenido a la calculadora IMC.</h1>
+    <form action="imc" method="get">
+      <div class="calcu-param">
+        <label>Peso (en kilos):</label>
+        <input name="peso" type="text" />
+      </div>
+      <div class="calcu-param">
+        <label>Altura (en metros):</label>
+        <input name="altura" type="text" />
+      </div>
+      <input type="submit" value="enviar" />
+    </form>
+  </body>
+</html>
